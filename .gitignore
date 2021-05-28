@@ -9,3 +9,4 @@ tmp
 .DS_Store
 docker-compose.override.yml
 setenv.*
+.vscode/
