@@ -25,9 +25,11 @@ Running openstad via node requires you to setup your own MySQL and Mongo databas
 # Setup environment
 $ source setenv
 # Install dependencies
-$ npm install --no-optional
+$ npm install
 # Create .env files for all services
 $ npm run configure
+# If you don't want to setup mongo, mysql and a smtp server yourself you can use docker-compose.deps-only.yml
+$ docker-compose -f docker-compose.deps-only.yml up -d
 # Setup databases (WARNING: This will reset your existing database)
 $ npm run db:install
 # Start services
