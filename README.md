@@ -2,6 +2,12 @@
 
 _**Openstad-app** — Collection of Openstad services_
 
+- 🧑‍💼 [admin](admin/) – _Management panel to manage your sites_
+- 🌍 [api](api/) – _Openstad REST API_
+- 🔐 [auth](auth/) – _OAuth2 server_
+- 💎 [frontend](fronted/) – _Openstad [ApostropheCMS](https://apostrophecms.com/) implementation_
+- 🖼️ [image](image/) – _Image server for on the fly resizing_
+
 ## Getting started
 
 See Openstad docs for cloning and getting started instructions: https://docs.openstad.amsterdam/technical/getting-started.html
