@@ -62,6 +62,7 @@ exports.apiConfig = {
   MYSQL_ST_GEO_MODE: process.env.MYSQL_ST_GEO_MODE,
   AUTH_ADMIN_CLIENT_ID: process.env.AUTH_ADMIN_CLIENT_ID,
   AUTH_ADMIN_CLIENT_SECRET: process.env.AUTH_ADMIN_CLIENT_SECRET,
+  AUTH_API_URL: process.env.AUTH_APP_URL,
 };
 
 exports.authConfig = {
@@ -110,6 +111,7 @@ exports.adminConfig = {
   USER_API: process.env.AUTH_APP_URL,
   USER_API_CLIENT_ID: process.env.AUTH_ADMIN_CLIENT_ID,
   USER_API_CLIENT_SECRET: process.env.AUTH_ADMIN_CLIENT_SECRET,
+  ALLOW_HTTP_URLS: process.env.ALLOW_HTTP_URLS,
 };
 
 exports.imageConfig = {
