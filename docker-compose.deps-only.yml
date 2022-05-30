@@ -31,5 +31,5 @@ services:
       - openstad-frontend-db-data:/data/db    
 
 volumes:
-  openstad-api-db-data:
-  openstad-frontend-db-data:
+  openstad-api-db-data: {}
+  openstad-frontend-db-data: {}
