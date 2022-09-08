@@ -112,6 +112,9 @@ exports.adminConfig = {
   USER_API_CLIENT_ID: process.env.AUTH_ADMIN_CLIENT_ID,
   USER_API_CLIENT_SECRET: process.env.AUTH_ADMIN_CLIENT_SECRET,
   ALLOW_HTTP_URLS: process.env.ALLOW_HTTP_URLS,
+  FORCE_HTTP: process.env.FORCE_HTTP || 0,
+  IMAGE_API_URL: process.env.IMAGE_API_URL,
+  IMAGE_API_ACCESS_TOKEN: process.env.IMAGE_API_ACCESS_TOKEN,
 };
 
 exports.imageConfig = {
